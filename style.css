@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.background {
+	background: url('img/nervy.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	mix-blend-mode: normal;
+	filter: blur(2.5px);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+[class*=__block] {
+	background: rgba(140, 109, 86, 0.4);
+	border: 2px solid #000000;
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	height: 60px;
+}
+
+.main__video-block {
+	width: 525px;
+	height: 300px;
+	background: rgba(140, 109, 86, 0.4);
+	border: 2px solid #000000;
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.video {
+	border: 2px solid #000000;
+	border-radius: 20px;
+	height: 293px;
+	width: 518px;
+}
+
+.controller__block {
+	margin-bottom: 25px;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 140px 0 140px;
+}
+
+.btn {
+	background: rgba(212, 175, 133, 0.5);
+	border: 1px solid #000000;
+	backdrop-filter: blur(12.5px);
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.btn:hover {
+	transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.song__block:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.song__block {
+	display: flex;
+	align-items: center;
+	padding: 0 8px 0 8px;
+	justify-content: space-between;
+	transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.song__block:hover {
+	transform: scale(1.05);
+	transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.volume {
+position: relative;
+}
+
+.range {
+position: absolute;
+right: 53px;
+}
+
+input[type=range]  {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	overflow: hidden;
+	height: 7px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	height: 7px;
+	background-color:rgba(212, 175, 133, 0.5);
+	backdrop-filter: blur(12.5px);
+}
+
+input[type=range]::-webkit-slider-thumb {
+	background: #1C1B1F;
+	border-radius: 20px;
+	cursor: pointer;
+	width:15px;
+	height: 15px;
+	-webkit-appearance: none;
+	margin-top: -4px;
+}
+
+.hidden {
+	display: none;
+}

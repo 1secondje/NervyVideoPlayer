@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+	<title>NERVY | VIDEO PLAYER</title>
+</head>
+
+<body>
+	<div class="background"></div>
+	<div class="wrapper">
+		<div class="main__video-block">
+			<video src="" class="video"></video>
+		</div>
+		<div class="controller__block">
+			<div class="volume btn"><img src="img/volume_up.svg" alt="">
+				<input type="range" class="range hidden" min="0" max="1" name="range" step="0.01">
+			</div>
+			<div class="previous btn"><img src="img/skip_previous.svg" alt=""></div>
+			<div class="play btn pause"><img src="img/play_pause.svg" alt=""></div>
+			<div class="next btn"><img src="img/skip_next.svg" alt=""></div>
+			<div class="fullscreen btn"><img src="img/fullscreen.svg" alt=""></div>
+		</div>
+		<div class="song__block">
+			<div class="song btn"><img src="img/queue_music.svg" alt=""></div>
+			<div class="song__name">Нервы - Вороны</div>
+			<div class="song__play btn 1"><img src="img/play_circle.svg" alt=""></div>
+		</div>
+		<div class="song__block">
+			<div class="song btn"><img src="img/queue_music.svg" alt=""></div>
+			<div class="song__name">Нервы - Батареи</div>
+			<div class="song__play btn 2"><img src="img/play_circle.svg" alt=""></div>
+		</div>
+		<div class="song__block">
+			<div class="song btn"><img src="img/queue_music.svg" alt=""></div>
+			<div class="song__name">Нервы - Слишком влюблен</div>
+			<div class="song__play btn 3"><img src="img/play_circle.svg" alt=""></div>
+		</div>
+		<div class="song__block">
+			<div class="song btn"><img src="img/queue_music.svg" alt=""></div>
+			<div class="song__name">Нервы - Кофе мой друг</div>
+			<div class="song__play btn 4"><img src="img/play_circle.svg" alt=""></div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
