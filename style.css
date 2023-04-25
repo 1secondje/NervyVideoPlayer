@@ -20,7 +20,7 @@
 
 [class*=__block] {
 	background: rgba(140, 109, 86, 0.4);
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	backdrop-filter: blur(10px);
 	border-radius: 20px;
 	height: 60px;
@@ -30,7 +30,7 @@
 	width: 525px;
 	height: 300px;
 	background: rgba(140, 109, 86, 0.4);
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	backdrop-filter: blur(10px);
 	border-radius: 20px;
 	display: flex;
@@ -40,10 +40,10 @@
 }
 
 .video {
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	border-radius: 20px;
-	height: 293px;
-	width: 518px;
+	height: 291px;
+	width: 516px;
 }
 
 .controller__block {
